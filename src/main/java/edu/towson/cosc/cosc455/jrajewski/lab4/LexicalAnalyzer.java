@@ -81,7 +81,7 @@ public class LexicalAnalyzer {
         return true;
     }
 	
-	// This method gets the next character from the "program" string.
+	// This method gets the next character from the "program" string
 	private void getChar(){
 		if (position < sourceLine.length())
 			nextChar = sourceLine.charAt(position++);
